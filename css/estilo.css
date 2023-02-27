@@ -1,0 +1,95 @@
+
+/*SELETOR UNIVERSAL*/
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url(../IMG/tammy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fce8d7;
+}
+
+
+header h1,
+header p{
+color:white;
+}
+
+.sec{
+    scroll-behavior: smooth;
+}
+
+
+
+button{
+    background-color:white;
+    color:#d2691e;
+}
+
+/*SOBRE*/
+
+.sobre{
+    margin-left: 90px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 30px 0;
+}
+
+
+.qualidades,
+.habilidades{
+    width: 50%;
+    display: inline-block;
+}
+
+
+footer{
+    padding: 80px 80px 0;
+}
+
+.curriculo{
+    text-align: center;
+    padding: 80px 80px 0;
+}
+
+p{
+    text-align: center;
+}
+
+
+.redes-sociais{
+    background-color:#d2691e;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+h2{
+    color:#d2691e;
+    text-align: center;
+    font-style: italic;
+}
+
+h3{
+    color: #d2691e;
+}
+
+
+
